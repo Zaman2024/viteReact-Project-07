@@ -15,10 +15,12 @@ export default function Github() {
   // },[])
 
   return (
-    <div>
-        <h1>Zaman : {data.following}</h1>
-        <img src={data.avatar_url} alt="" />
+    <div className='flex flex-row  justify-center items-center'>
+      <div className='text-center'>
+        <h1 className='p-5'>Zaman : {data.following}</h1>
+        <img src={data.avatar_url} alt="image" width={250} className='rounded-lg' />
       
+    </div>
     </div>
   )
 }
