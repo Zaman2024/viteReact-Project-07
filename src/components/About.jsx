@@ -7,8 +7,8 @@ function About() {
 
     useEffect(()=>{
         const typed = new Typed(element.current , {
-            strings:['Hi My name is Khan and i am not a terrorist'],
-            typeSpeed: 60,
+            strings:['To seek and maintain full-time position that offers professional challenges utilizing interpersonal skills, excellenttime management and problem-solving skills. Hardworking and passionate job seeker with strong organizationalskills eager to secure entry-level Managerial position. Ready to help team achieve company goals. Detail-orientedteam player with strong organizational skills. Ability to handle multiple projects simultaneously with a high degreeof accuracy.'],
+            typeSpeed: 20,
         });
 
         //-- Destroying
