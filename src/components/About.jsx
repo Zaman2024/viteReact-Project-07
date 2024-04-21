@@ -18,9 +18,9 @@ function About() {
 
     },[])
   return (
-    <div className='flex flex-col justify-self-center w-1/2 mx-72 my-10 bg-white bg-opacity-10 rounded-lg'>
-      <h1 className='bg-blue-500 bg-opacity-65 text-white text-center p-1 text-xl font-bold rounded-lg'>About</h1>
-      <span ref={element}></span>
+    <div className='flex flex-col justify-self-center w-1/1 mx-72 my-8 bg-white bg-opacity-10 rounded-lg'>
+      <h1 className='bg-blue-500 bg-opacity-65 text-white text-center p-1 text-xl font-bold rounded-t-lg'>About</h1>
+      <span className='px-5 py-1 text-lg text-white/75' ref={element}></span>
     </div>
   )
 }

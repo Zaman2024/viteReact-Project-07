@@ -37,10 +37,10 @@ export default function Home() {
           and
         </h1>
         <h1>I am a Pasonate</h1>
-        <span ref={element}></span>
+        <span className='text-yellow-500' ref={element}></span>
       </div>
       <div>
-        <img src="./image.jpg" alt="Image" width={150} />
+        <img src="./image.jpg" alt="Image" width={150}  />
       </div>
     </div>
   );

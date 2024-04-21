@@ -6,7 +6,7 @@ function Navbar() {
     <div className=" bg-indigo-950 text-center">
       <div className=" flex justify-between mx-8 ">
         <div className="float-left m-2">
-          <img src="./Logo2.png" alt="Image" width={70} />
+          <img src="./Logo2.png" alt="Image" width={70} className="opacity-55" />
         </div>
         <div className="flex gap-32 float-right my-7">
           <div className="flex gap-3 text-xl">
