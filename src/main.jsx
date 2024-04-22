@@ -10,6 +10,9 @@ import Github, { GithubData } from './components/Github.jsx'
 import Contact from './components/Contact.jsx'
 
 
+
+
+
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path= '/' element={<Layout/>}>
@@ -18,6 +21,7 @@ const router = createBrowserRouter(
       {/* <Route path='Github' element = {<Github/>} /> */}
       <Route loader={GithubData} path='Github' element = {<Github/>} />
       <Route path='Contact' element = {<Contact/>} />
+      
     </Route>
   )
 )
