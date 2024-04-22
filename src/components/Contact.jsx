@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Contact() {
   return (
-    <div className='flex justify-between items-center gap-5 bg-slate-500 bg-opacity-40 mx-80 my-8 px-8 rounded-2xl'>
+    <div className='flex flex-wrap justify-between items-center gap-5 bg-slate-500 bg-opacity-40 mx-80 my-8 px-8 rounded-2xl'>
       
       <div className='flex flex-col gap-4 p-3'>
         <label> Name :

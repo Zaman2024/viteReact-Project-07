@@ -9,7 +9,7 @@ export default function Home() {
     const typed = new Typed(element.current, {
       strings: [
         "Web Developer ",
-        "Graphic Desiner ",
+        "Graphic Designer ",
         "Video Editor ",
         "Coder ",
       ],
