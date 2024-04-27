@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # viteRact router practical project--02
+=======
+# React + Vite project
+>>>>>>> e5222daf982a51576a58926dc859f77d7d281134
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
