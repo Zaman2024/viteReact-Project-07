@@ -1,5 +1,5 @@
 
-viteReact project 1
+viteReact project
 
 <<<<<<< HEAD
 # viteRact router practical project--02
